@@ -8,6 +8,7 @@ def run_guessing_game
   input = gets.chomp
   another_1 = input.to_i.integer?
   p another_1
+  0.integer?
   if input == readable
     puts "You guessed the correct number!"
   elsif input != readable && input.to_i.integer?
