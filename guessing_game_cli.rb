@@ -2,7 +2,7 @@
 
 def run_guessing_game
   random_number = rand(5) + 1
-  # readable = random_number.to_s
+  readable = random_number.to_s
   puts "Guess a number between 1 and 6?"
   input = gets.chomp
   if input == readable
